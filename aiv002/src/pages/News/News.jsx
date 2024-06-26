@@ -32,7 +32,7 @@ function News() {
               return <div className='news-box'>
               <img src={val.urlToImage} alt="hello" />
               <h1>{val.title}</h1>
-              <a style={{color: "var(--main-color)", marginTop: "20px"}} href={val.url}>Learn More</a>
+              <a style={{color: "var(--main-color)", marginTop: "20px"}} href={val.url} target="_blank">Learn More</a>
             </div>
             }
           })
