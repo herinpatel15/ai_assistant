@@ -1,8 +1,8 @@
-##Main two directry
-#1) aiv002
-#2) server
+## Main two directry
+# 1) aiv002
+# 2) server
 
-###Run code
+### Run code
 
-#first client side run "npm run dev"
-#second server side run "npm start"
+# first client side run "npm run dev"
+# second server side run "npm start"
