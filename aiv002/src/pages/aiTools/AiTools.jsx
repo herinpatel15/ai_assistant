@@ -58,7 +58,7 @@ function AiTools() {
               <h3>{val.name}</h3>
               <p>{trimpDescription}</p>
               <p className={backgroundColor}>{text}</p>
-              <a href={val.url}>Try it</a>
+              <a href={val.url} target="_blank">Try it</a>
             </div>
           );
         })}
