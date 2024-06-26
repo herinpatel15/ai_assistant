@@ -11,7 +11,7 @@ function News() {
   const newsFetch = async () => {
     try {
       setLod(true)
-      const response = await axios.get("http://localhost:3030/api/news");
+      const response = await axios.get("https://ai-assistant-api-learn.vercel.app/api/news");
       setNewsData(response.data);
       setLod(false)
     } catch (error) {
