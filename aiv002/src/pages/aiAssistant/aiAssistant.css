@@ -1,0 +1,39 @@
+.main-assistant{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    max-width: 70%;
+    max-height: 85vh;
+    width: 70%;
+    gap: 1.5rem;
+    height: 85vh;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0);
+    overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar {
+    width: 0;
+}
+
+.inner-container {
+    width: 80%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.053);
+    border-radius: 20px;
+}
+
+.lod-assis {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

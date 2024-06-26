@@ -1,0 +1,55 @@
+:root {
+  --main-color: #FF5C00;
+  --bg-color: rgb(11, 11, 11);
+  --text-color: rgb(249, 249, 249);
+}
+
+@font-face {
+  font-family: JosefinSans;
+  src: url('./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: JosefinSans;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.main{
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ...........text gradiunt.......... */
+.gradient-text {
+  background-image: linear-gradient(to right, var(--main-color), white, var(--main-color));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ..............hover.............. */
+.hover-color a:hover {
+  color: var(--main-color);
+  transition: all 0.7s linear;
+}
+.svg-hover:hover svg path {
+  fill: var(--main-color);
+  transition: all 0.7s linear;
+}

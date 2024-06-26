@@ -1,0 +1,24 @@
+.main-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-box {
+    width: 70%;
+    margin: 3rem;
+}
+.about-box h1 {
+    font-size: 3em;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+.about-box article {
+    font-size: 20px;
+}
+
+.last {
+    margin: 5rem 0;
+    color: var(--main-color);
+}

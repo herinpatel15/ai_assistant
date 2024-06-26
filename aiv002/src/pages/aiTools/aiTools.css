@@ -1,0 +1,96 @@
+.main-tool{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.tool-text {
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.3;
+    margin-top: 2rem;
+}
+
+.tool {
+    border: 1px solid rgba(255, 255, 255, 0.446);
+    padding: 8px 18px;
+    border-radius: 999px;
+}
+.up-tool {
+    background-color: aliceblue;
+    color: var(--main-color);
+}
+
+.tool:hover {
+    color: var(--main-color);
+    transition: all 0.5s linear;
+}
+
+.tool-act {
+    color: var(--main-color);
+    transition: all 0.5s linear;
+    border: 1px solid rgba(255, 255, 255, 0.446);
+    padding: 8px 18px;
+    border-radius: 999px;
+    background-color: rgba(240, 248, 255, 0.161);
+    font-weight: bolder;
+}
+
+.tool-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 5rem;
+    max-width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 20%;
+    background-color: rgba(240, 248, 255, 0.166);
+    padding: 20px;
+    border-radius: 20px;
+    gap: 10px;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: var(--main-color);
+}
+
+.green {
+    background-color: rgba(37, 255, 37, 0.222);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgb(37, 255, 37);
+}
+.orange {
+    background-color: rgba(255, 166, 0, 0.222);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgb(255, 166, 0);
+}
+.red {
+    background-color: rgba(255, 0, 0, 0.222);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgb(255, 0, 0);
+}
+
+.card a {
+    font-size: 1.2em;
+    color: var(--main-color);
+
+    margin-top: 10px;
+}

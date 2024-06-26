@@ -1,0 +1,658 @@
+{
+    "chat": [
+        {
+            "name": "Microsoft Copilot",
+            "url": "https://learn.microsoft.com/en-us/copilot/",
+            "description": "Offers strong overall performance and can access the internet for information retrieval. (Free plan available with limited features, paid plans for extended functionality)",
+            "free": "Yes",
+            "img": "https://i.ibb.co/b50Cv9Z/Microsoft-Copilot.png"
+        },
+        {
+            "name": "ChatGPT",
+            "url": "https://platform.openai.com/overview",
+            "description": "A popular choice known for its text-based conversational abilities. (Free tier with limitations, paid plans for increased usage and features)",
+            "free": "Yes",
+            "img": "https://i.ibb.co/zQrbsPX/ChatGPT.png"
+        },
+        {
+            "name": "Perplexity AI",
+            "url": "https://perplexity.ai/",
+            "description": "Designed for easy use and provides sources for its responses. Free plan with limitations, paid plans for increased functionality",
+            "free": "Yes",
+            "img": "https://i.ibb.co/cFzJ4ys/Perplexity-AI.png"
+        },
+        {
+            "name": "Chat by Copy.ai",
+            "url": "https://www.copy.ai/",
+            "description": "Integrates with a text editor for creative writing workflows. Free plan with limitations, paid plans for increased functionality",
+            "free": "Yes",
+            "img": "https://i.ibb.co/bBS3Dmd/Copy-AI.png"
+        },
+        {
+            "name": "Mitsuku",
+            "url": "http://www.mitsuku.com/",
+            "description": "Award-winning chatbot known for its wit and personality. Free to chat with, paid API access available",
+            "free": "Yes",
+            "img": "https://i.ibb.co/Cm9VqcH/Mitsuku.png"
+        },
+        {
+            "name": "Cleverbot",
+            "url": "https://cleverbot.com/",
+            "description": "A long-running chatbot that learns from user interactions. Free to chat with, limited API access",
+            "free": "Yes",
+            "img": "https://i.ibb.co/X50rtzj/Cleverbot.png"
+        },
+        {
+            "name": "Juiceplus+",
+            "url": "https://juiceplus.com/",
+            "description": "Health and wellness focused chatbot offering information and support. Free to chat with",
+            "free": "Yes",
+            "img": "https://i.ibb.co/HKM945F/Juiceplus.png"
+        },
+        {
+            "name": "Bard (Google AI)",
+            "url": "https://gemini.google.com/app",
+            "description": "Large language model from Google AI, focused on factual language and informative answers. Currently in research phase, not publicly available for chat yet",
+            "free": "Yes",
+            "img": "https://i.ibb.co/HKM945F/Juiceplus.png"
+        },
+        {
+            "name": "Dialogflow (Google Cloud)",
+            "url": "https://cloud.google.com/dialogflow/",
+            "description": "Platform for building chatbots with pre-built integrations. Free tier with limitations, paid plans for increased functionality",
+            "free": "limited",
+            "img": "https://i.ibb.co/Dw31yzM/Dialogflow-Google-Cloud.png"
+        },
+        {
+            "name": "Amazon Lex",
+            "url": "https://aws.amazon.com/lex/",
+            "description": "AWS offering for building conversational AI applications. Free tier with limitations, paid plans for increased functionality",
+            "free": "limited",
+            "img": "https://i.ibb.co/RpKGPds/Amazon-Lex.png"
+        },
+        {
+            "name": "Wit.ai (Facebook)",
+            "url": "https://wit.ai/",
+            "description": "Facebook's platform for building voice-powered applications (partially discontinued, focus shifted to Messenger chatbots). Free plan with limitations",
+            "free": "limited",
+            "img": "https://i.ibb.co/K7F24Gm/Wit-ai-Facebook.png"
+        },
+        {
+            "name": "IBM Watson Assistant",
+            "url": "https://www.ibm.com/cloud/watson-assistant/",
+            "description": "Cloud-based service for building intelligent virtual assistants. Free tier with limitations, paid plans for increased functionality",
+            "free": "limited",
+            "img": "https://i.ibb.co/XYQNPY2/IBM-Watson-Assistant.png"
+        },
+        {
+            "name": "Botpress",
+            "url": "https://botpress.io/",
+            "description": "Open-source platform for building chatbots with a focus on conversational flows. Free to use, requires development expertise",
+            "free": "Yes",
+            "img": "https://i.ibb.co/K7WFyFw/Botpress.png"
+        }
+    ],
+    "image": [
+        {
+            "name": "DALL-E 2 (OpenAI)",
+            "url": "https://openai.com/dall-e-2",
+            "description": "Renowned for its ability to generate unique and creative images based on text descriptions. Currently in closed beta with limited access.",
+            "free": "No",
+            "img": "https://i.ibb.co/FYCBgLj/DALL-E-2-Open-AI.png"
+        },
+        {
+            "name": "Midjourney",
+            "url": "",
+            "description": "Known for its ability to produce high-quality and artistic images. Operates through a waitlist system and offers paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/pZQpFYY/Midjourney.png"
+        },
+        {
+            "name": "Dream by WOMBO",
+            "url": "https://www.wombo.art/dream/",
+            "description": "A user-friendly tool that allows generating images with various artistic styles from simple text prompts. Offers both free and paid plans.",
+            "free": "Yes",
+            "img": "https://i.ibb.co/DWVxtXL/Dream-by-WOMBO.png"
+        },
+        {
+            "name": "Nightcafe Creator",
+            "url": "https://creator.nightcafe.studio/",
+            "description": "Provides a good range of customization options for creating both abstract and realistic images based on text descriptions. Offers free and paid plans.",
+            "free": "Yes",
+            "img": "https://i.ibb.co/F8qFC09/Nightcafe-Creator.png"
+        },
+        {
+            "name": "Imagen by Google AI",
+            "url": "https://imagen.research.google/",
+            "description": "Still under development, but known for its potential to generate high-fidelity and photorealistic images. Public access is not yet available.",
+            "free": "No",
+            "img": "https://i.ibb.co/x2N09KH/Imagen-by-Google-AI.png"
+        },
+        {
+            "name": "Craiyon (DALL-E Mini)",
+            "url": "https://www.craiyon.com/",
+            "description": "A free-to-use tool that generates images based on text prompts, although the quality may not be as high as some paid options.",
+            "free": "Yes",
+            "img": "https://i.ibb.co/LRggLQw/Craiyon-DALL-E-Mini.png"
+        },
+        {
+            "name": "Jasper Art",
+            "url": "https://www.jasper.ai/art",
+            "description": "Primarily focused on creating visuals for marketing and advertising purposes. Offers paid subscriptions with different feature sets.",
+            "free": "No",
+            "img": "https://i.ibb.co/LRggLQw/Craiyon-DALL-E-Mini.png"
+        },
+        {
+            "name": "Canva",
+            "url": "https://www.canva.com/",
+            "description": "Offers a limited image generation tool within its design platform. Free and paid plans available.",
+            "free": "limited",
+            "img": "https://i.ibb.co/mX73fz3/Canva.png"
+        },
+        {
+            "name": "Adobe Photoshop (Beta feature)",
+            "url": "https://www.adobe.com/products/photoshop.html",
+            "description": "Exploring the integration of AI image generation functionalities within the popular editing software.",
+            "free": "No",
+            "img": "https://i.ibb.co/NC7vwJf/Adobe-Photoshop-Beta-feature.png"
+        },
+        {
+            "name": "Deep Dream Generator",
+            "url": "https://deepdreamgenerator.com/",
+            "description": "Web application that allows applying various artistic styles to images using deep learning techniques. Free to use with limitations, paid plans for extended functionalities.",
+            "free": "limited",
+            "img": "https://i.ibb.co/n0zjgx7/Deep-Dream-Generator.png"
+        },
+        {
+            "name": "Artbreeder",
+            "url": "https://artbreeder.com/",
+            "description": "Platform for creating and exploring artistic variations of images using machine learning. Free to use with limitations, paid plans for extended functionalities.",
+            "free": "limited",
+            "img": "https://i.ibb.co/dcjgnFk/Artbreeder.png"
+        }
+    ],
+    "music": [
+        {
+            "name": "Amper Music",
+            "url": "https://ampermusic.zendesk.com/hc/en-us",
+            "description": "Creates high-quality musical pieces in various genres using artificial intelligence. Offers a free trial and paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/BfqyD2r/Amper-Music.png"
+        },
+        {
+            "name": "AIVA",
+            "url": "https://www.aiva.ai/",
+            "description": "Generates original music soundtracks and sound effects for media projects. Offers paid subscriptions with varying functionalities.",
+            "free": "No",
+            "img": "https://i.ibb.co/CQr8vBf/AIVA.png"
+        },
+        {
+            "name": "MuseNet (OpenAI)",
+            "url": "https://openai.com/research/musenet",
+            "description": "An open-source music generation tool that can create MIDI files in various styles. Free to use and modify.",
+            "free": "Yes",
+            "img": "https://i.ibb.co/nbQqQw1/Muse-Net-Open-AI.png"
+        },
+        {
+            "name": "Soundful",
+            "url": "https://soundful.com/",
+            "description": "Generates royalty-free background music for videos, social media content, and other creative projects. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/1JR5Dv1/Soundful.png"
+        },
+        {
+            "name": "Jukebox (OpenAI)",
+            "url": "https://openai.com/research/jukebox",
+            "description": "A research project by OpenAI that can generate music in different styles, mimicking various artists. Public access is limited.",
+            "free": "No",
+            "img": "https://i.ibb.co/yN71Wn4/Jukebox-Open-AI.png"
+        },
+        {
+            "name": "Landr",
+            "url": "https://www.landr.com/",
+            "description": "Uses AI to analyze and master your music tracks, enhancing their audio quality. Offers free trials and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/K0CWVNj/Landr.png"
+        },
+        {
+            "name": "iZotope Ozone",
+            "url": "http://www.izotope.com/en/products/ozone.html",
+            "description": "An industry-standard audio mastering software with AI features for intelligent processing and mastering suggestions. Offers paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/H2y72pC/i-Zotope-Ozone.png"
+        },
+        {
+            "name": "Melodyo",
+            "url": "https://melodyo.org/",
+            "description": "A web-based music creation tool that helps users compose melodies and chord progressions with AI assistance. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/gRCDqWw/Melodyo.png"
+        },
+        {
+            "name": "Jukedeck",
+            "url": "https://openai.com/research/jukebox",
+            "description": "Creates royalty-free background music for videos, presentations, and other creative projects. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/3dk1szh/Jukedeck.png"
+        },
+        {
+            "name": "WavTool",
+            "url": "https://www.reddit.com/r/Music/comments/wl83dr/does_anyone_know_about_wavrai_playlists/",
+            "description": "Uses AI to generate musical pieces, sound effects, and MIDI files based on user prompts. Offers a limited number of free daily prompts, with paid plans for extended functionalities.",
+            "free": "limited",
+            "img": "https://i.ibb.co/YNFrL2w/WavTool.png"
+        },
+        {
+            "name": "Brain.fm",
+            "url": "https://www.brain.fm/",
+            "description": "Creates AI-generated music designed to improve focus, relaxation, and sleep. Offers free trials and paid subscriptions.",
+            "free": "limited",
+            "img": "https://i.ibb.co/D8DkjwX/Brain-fm.png"
+        },
+        {
+            "name": "Magenta Studio",
+            "url": "https://magenta.tensorflow.org/",
+            "description": "A collection of open-source tools and libraries developed by Google AI for music generation and experimentation. Free to use.",
+            "free": "Yes",
+            "img": "https://i.ibb.co/zxgQVrK/Magenta-Studio.png"
+        },
+        {
+            "name": "Orb Producer Suite",
+            "url": "https://www.orbplugins.com/orb-producer-suite/",
+            "description": "A suite of AI-powered music production tools for composing, arranging, mixing, and mastering music. Offers paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/nLxLCpB/Orb-Producer-Suite.png"
+        },
+        {
+            "name": "Asskgpt (Beta)",
+            "url": "https://platform.openai.com/overview",
+            "description": "A large language model from OpenAI that can be used for various creative tasks, including generating lyrics, song titles, and melodies. Free to use during the beta testing phase.",
+            "free": "Yes",
+            "img": "https://i.ibb.co/9nDYxRF/Asskgpt-Beta.png"
+        },
+        {
+            "name": "The Bach Doodle (Google AI)",
+            "url": "https://sites.google.com/site/populardoodlegames/celebrating-johann-sebastian-bach",
+            "description": "An interactive experiment by Google AI that allows users to compose music in the style of Bach using a simple interface. Free to use.",
+            "free": "Yes",
+            "img": "https://i.ibb.co/syx6MBs/The-Bach-Doodle-Google-AI.png"
+        },
+        {
+            "name": "Murf",
+            "url": "https://murf.ai/",
+            "description": "Uses AI to generate realistic human voices for audiobooks, podcasts, and other creative projects. Offers free trials and paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/yPKcjbS/Murf.png"
+        },
+        {
+            "name": "Amper Music** (similar service)",
+            "url": "https://ampermusic.zendesk.com/hc/en-us",
+            "description": "Another AI music generation platform offering audio creation in various styles and moods. Provides free trials and paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/rML0pxS/Amper-Music-similar-service.png"
+        },
+        {
+            "name": "HiFi SONG",
+            "url": "https://soundcloud.com/officialhifi",
+            "description": "An AI-powered tool for creating and customizing royalty-free background music. Offers free trials and paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/VqTC1XT/Hi-Fi-SONG.png"
+        }
+    ],
+    "video": [
+        {
+            "name": "Synthesia",
+            "url": "https://www.synthesia.io/",
+            "description": "Creates realistic AI-powered videos with customizable avatars that speak your script. Offers paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/X4WTDgM/Synthesia.png"
+        },
+        {
+            "name": "Colossyan",
+            "url": "https://www.colossyan.com/",
+            "description": "Generates high-quality text-to-video content with a focus on explainer videos and product demos. Offers paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/M6GBJyG/Colossyan.png"
+        },
+        {
+            "name": "D-ID",
+            "url": "http://www.adai.ai/",
+            "description": "Specializes in video reanimation, allowing you to bring archival footage or still images to life with AI-driven lip-syncing. Offers paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/sqFYbN5/D-ID.png"
+        },
+        {
+            "name": "Pictory",
+            "url": "https://pictory.ai/",
+            "description": "Transforms blog posts, articles, or scripts into engaging social media videos with AI image and text selection. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/8jRqdky/Pictory.png"
+        },
+        {
+            "name": "Descript",
+            "url": "https://www.descript.com/",
+            "description": "Enables video editing through text transcription, making it easy to adjust content and add narration. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/9qnLxtp/Descript.png"
+        },
+        {
+            "name": "Wondershare Filmora",
+            "url": "https://filmora.wondershare.com/",
+            "description": "Video editing software with various AI features for object removal, background replacement, and intelligent scene optimization. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/5L69nT8/Wondershare-Filmora.png"
+        },
+        {
+            "name": "Runway",
+            "url": "https://runwayml.com/",
+            "description": "An open-source platform for experimenting with generative AI tools, including video effects and editing functionalities. Offers free and paid plans.",
+            "free": "Yes",
+            "img": "https://i.ibb.co/M2WT1cK/Runway.png"
+        },
+        {
+            "name": "Peech",
+            "url": "https://web.peech-ai.com/plans",
+            "description": "Creates marketing and explainer videos with AI-powered text-to-speech narration and character animation. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/v1TcynZ/Peech.png"
+        },
+        {
+            "name": "InVideo",
+            "url": "https://invideo.io/",
+            "description": "A comprehensive video creation platform with AI features for generating intros, outros, and social media video formats. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/FDqgC5F/InVideo.png"
+        },
+        {
+            "name": "Fliki",
+            "url": "https://fliki.ai/",
+            "description": "Tailored towards creating short and engaging social media videos using AI for text animation, editing, and music selection. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/CPWgSCk/Fliki.png"
+        },
+        {
+            "name": "Visla",
+            "url": "https://www.visla.us/",
+            "description": "Generates videos from a script, allowing for customization of video style, voiceover, and music. Offers paid subscriptions.",
+            "free": "limited",
+            "img": "https://i.ibb.co/m0gJ6zT/Visla.png"
+        },
+        {
+            "name": "Opus Clip",
+            "url": "https://www.opus.pro/",
+            "description": "Specializes in repurposing long-form video content into snackable social media clips using AI for scene detection and editing. Offers paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/LCRWv5j/Opus-Clip.png"
+        },
+        {
+            "name": "DALL-E 2 (OpenAI)",
+            "url": "https://openai.com/blog/dall-e-2/",
+            "description": "While not specifically a video tool, DALL-E 2's ability to generate creative images can be a starting point for video concepts. Currently in closed beta.",
+            "free": "No",
+            "img": "https://i.ibb.co/FYCBgLj/DALL-E-2-Open-AI.png"
+        },
+        {
+            "name": "Midjourney",
+            "url": "https://www.midjourney.com/",
+            "description": "Similar to DALL-E 2, Midjourney's image generation capabilities can inspire video ideas. Operates through a waitlist system and offers paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/pZQpFYY/Midjourney.png"
+        },
+        {
+            "name": "Dream by WOMBO",
+            "url": "https://www.w.ai/",
+            "description": "Offers a user-friendly interface for generating creative images and artwork based on text prompts. Free and paid plans available.",
+            "free": "limited",
+            "img": "https://i.ibb.co/DWVxtXL/Dream-by-WOMBO.png"
+        },
+        {
+            "name": "Nightcafe Creator",
+            "url": "https://creator.nightcafe.studio/",
+            "description": "Provides a range of customization options for creating both abstract and realistic images using text descriptions. Free and paid plans available.",
+            "free": "limited",
+            "img": "https://i.ibb.co/F8qFC09/Nightcafe-Creator.png"
+        },
+        {
+            "name": "Artbreeder",
+            "url": "https://artbreeder.com/",
+            "description": "Platform for creating and exploring artistic variations of images using machine learning. Free to use with limitations, paid plans for extended functionalities.",
+            "free": "limited",
+            "img": "https://i.ibb.co/dcjgnFk/Artbreeder.png"
+        },
+        {
+            "name": "Magenta Studio",
+            "url": "https://magenta.tensorflow.org/",
+            "description": "A collection of open-source tools and libraries developed by Google AI for various creative tasks, including potential video applications. Free to use.",
+            "free": "Yes",
+            "img": "https://i.ibb.co/zxgQVrK/Magenta-Studio.png"
+        }
+    ],
+    "ppt": [
+        {
+            "name": "Beautiful.ai",
+            "url": "https://www.beautiful.ai/",
+            "description": "Creates visually stunning presentations with AI-powered design suggestions and smart layouts. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/xhnY1JM/Beautiful-ai.png"
+        },
+        {
+            "name": "Simplified's AI Presentation Maker",
+            "url": "https://simplified.com/presentation-maker",
+            "description": "Uses AI to generate slide content and design elements based on your text input. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/nwCFv10/Simplified-s-AI-Presentation-Maker.png"
+        },
+        {
+            "name": "Slidebean",
+            "url": "https://slidebean.com/",
+            "description": "Provides AI-powered templates and coaching tools to help you create professional presentations quickly. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/wNTCTyD/Slidebean.png"
+        },
+        {
+            "name": "Designs.ai",
+            "url": "https://www.designs.ai/",
+            "description": "An AI design platform offering presentation creation tools with automated layouts, image suggestions, and branding integration. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/kX5ZbrH/Designs-ai.png"
+        },
+        {
+            "name": "Pitch",
+            "url": "https://pitch.com/",
+            "description": "Creates data-driven presentations with AI-powered insights and storytelling guidance. Offers paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/xzdpZVL/Pitch.png"
+        },
+        {
+            "name": "Presentations.ai",
+            "url": "https://www.presentations.ai/",
+            "description": "An AI presentation platform focusing on data visualization and storytelling. Offers free trials and paid subscriptions.",
+            "free": "limited",
+            "img": "https://i.ibb.co/wgwKs7N/Presentations-ai.png"
+        },
+        {
+            "name": "Kroma.ai",
+            "url": "https://kroma.ai/",
+            "description": "Specializes in creating presentations from data using AI. Offers data visualization tools and storytelling features. Offers paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/M2y39Cm/Kroma-ai.png"
+        },
+        {
+            "name": "Tome",
+            "url": "https://tome.app/",
+            "description": "Emphasizes AI-powered text-to-slide functionality, generating presentations from your written content. Offers free trials and paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/2dYnmm5/tome.png"
+        },
+        {
+            "name": "DeckRobot",
+            "url": "https://deckrobot.com/",
+            "description": "An AI presentation assistant that helps with content creation, design, and delivery using machine learning algorithms. Offers paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/8b3QJfP/Deck-Robot.png"
+        },
+        {
+            "name": "Canva",
+            "url": "https://www.canva.com/",
+            "description": "A popular design platform with built-in AI features for suggesting layouts, images, and presentations templates. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/mX73fz3/Canva.png"
+        },
+        {
+            "name": "Microsoft PowerPoint (with Microsoft 365 Copilot)",
+            "url": "https://www.microsoft.com/en-us/microsoft-365/powerpoint",
+            "description": "Microsoft PowerPoint offers an AI assistant called Copilot (currently in development) that suggests design elements and content based on your input. Part of Microsoft 365 subscription.",
+            "free": "No",
+            "img": "https://i.ibb.co/kytQmYp/Microsoft-Power-Point-with-Microsoft-365-Copilot.png"
+        },
+        {
+            "name": "Visme",
+            "url": "https://www.visme.co/",
+            "description": "A comprehensive design platform with AI-powered features for creating presentations, infographics, and other visual content. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/NNLSY8k/Visme.png"
+        },
+        {
+            "name": "Prezi",
+            "url": "https://prezi.com/",
+            "description": "Presentation software known for its non-linear canvas. Offers AI-powered tools for storytelling and audience engagement. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/3TwQQvG/Prezi.png"
+        },
+        {
+            "name": "Haiku Deck",
+            "url": "https://www.haikudeck.com/",
+            "description": "Presentation creation platform with a focus on simplicity and storytelling. Offers AI-powered suggestions for visuals and text. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/HzR520T/Haiku-Deck.png"
+        },
+        {
+            "name": "Lumen5",
+            "url": "https://lumen5.com/",
+            "description": "Creates video presentations from text and media using AI. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/X2j93WS/Lumen5.png"
+        },
+        {
+            "name": "Moovly",
+            "url": "https://www.moovly.com/",
+            "description": "An animation and video creation platform with AI features for generating presentations with motion graphics and interactivity. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/gRCDqWw/Melodyo.png"
+        },
+        {
+            "name": "Powtoon",
+            "url": "https://www.powtoon.com/",
+            "description": "Offers tools for creating animated presentations and explainer videos with AI-powered features for design and storytelling. Provides free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/tpV2r8V/Powtoon.png"
+        }
+    ],
+    "prompt": [
+        {
+            "name": "ChatGPT (OpenAI)",
+            "url": "https://beta.openai.com/playground/",
+            "description": "A large language model from OpenAI that can be used for various creative tasks, including generating different creative text formats, translating languages, writing different kinds of creative content, and answering your questions in an informative way. Currently in beta testing.",
+            "free": "Yes",
+            "img": "https://i.ibb.co/zQrbsPX/ChatGPT.png"
+        },
+        {
+            "name": "Bard (Google AI)",
+            "url": "https://lamda.ai/",
+            "description": "A factual language model from Google AI, capable of generating different creative text formats, translating languages, writing different kinds of creative content, and answering your questions in an informative way. Still under development, not publicly available yet.",
+            "free": "No",
+            "img": "https://i.ibb.co/52JzR36/Bard-Google-AI.png"
+        },
+        {
+            "name": "Jasper",
+            "url": "https://jasper.ai/",
+            "description": "A commercial AI writing assistant that helps with marketing copy, blog posts, website content, and other creative writing tasks. Offers paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/mN0s5MV/Jasper.png"
+        },
+        {
+            "name": "Rytr",
+            "url": "https://rytr.me/",
+            "description": "An affordable AI writing assistant offering a variety of features for creating blog posts, social media content, product descriptions, and more. Provides free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/YB4LJS2/Rytr.png"
+        },
+        {
+            "name": "Writesonic",
+            "url": "https://www.writesonic.com/",
+            "description": "An AI writing tool with features for generating different creative text formats, long-form content, marketing copy, and other writing needs. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/RPLKnWp/Writesonic.png"
+        },
+        {
+            "name": "Copy AI",
+            "url": "https://www.copy.ai/",
+            "description": "An AI copywriting tool that assists with marketing copy, sales content, website copy, and other writing tasks. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/bBS3Dmd/Copy-AI.png"
+        },
+        {
+            "name": "Midjourney",
+            "url": "https://www.midjourney.com/",
+            "description": "An AI image generation platform that uses text prompts to create unique and creative images. Operates through a waitlist system and offers paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/pZQpFYY/Midjourney.png"
+        },
+        {
+            "name": "DALL-E 2 (OpenAI)",
+            "url": "https://openai.com/blog/dall-e-2/",
+            "description": "A powerful AI image generation system from OpenAI, capable of creating realistic and creative images based on text descriptions. Currently in closed beta.",
+            "free": "No",
+            "img": "https://i.ibb.co/FYCBgLj/DALL-E-2-Open-AI.png"
+        },
+        {
+            "name": "Nightcafe Creator",
+            "url": "https://creator.nightcafe.studio/",
+            "description": "Provides a user-friendly interface for generating creative images and artwork based on text prompts. Offers free and paid plans.",
+            "free": "limited",
+            "img": "https://i.ibb.co/F8qFC09/Nightcafe-Creator.png"
+        },
+        {
+            "name": "Dream by WOMBO",
+            "url": "https://www.w.ai/",
+            "description": "Offers a user-friendly interface for generating creative images and artwork based on text prompts. Free and paid plans available.",
+            "free": "limited",
+            "img": "https://i.ibb.co/DWVxtXL/Dream-by-WOMBO.png"
+        },
+        {
+            "name": "Artbreeder",
+            "url": "https://artbreeder.com/",
+            "description": "Platform for creating and exploring artistic variations of images using machine learning. Free to use with limitations, paid plans for extended functionalities.",
+            "free": "limited",
+            "img": "https://i.ibb.co/dcjgnFk/Artbreeder.png"
+        },
+        {
+            "name": "Imagen (Google AI)",
+            "url": "https://ai.googleblog.com/2022/01/imagen-unconditional-image-generation.html",
+            "description": "A powerful image generation system by Google AI, capable of creating high-fidelity images from textual descriptions. Still under research, not publicly available yet.",
+            "free": "No",
+            "img": "https://i.ibb.co/x2N09KH/Imagen-by-Google-AI.png"
+        },
+        {
+            "name": "MuseNet (Google AI)",
+            "url": "https://arxiv.org/abs/2201.08237",
+            "description": "A generative music model from Google AI that can create music based on text prompts or musical styles. Still under development, not publicly available yet.",
+            "free": "No",
+            "img": "https://i.ibb.co/nbQqQw1/Muse-Net-Open-AI.png"
+        },
+        {
+            "name": "Jukebox (OpenAI)",
+            "url": "https://openai.com/blog/jukebox/",
+            "description": "An AI system by OpenAI that can generate music in various styles based on text descriptions. Currently in closed beta.",
+            "free": "No",
+            "img": "https://i.ibb.co/yN71Wn4/Jukebox-Open-AI.png"
+        },
+        {
+            "name": "Amper Music** (similar service)",
+            "url": "https://ampermusic.zendesk.com/hc/en-us",
+            "description": "An AI music generation platform offering audio creation in various styles and moods based on user input. Provides free trials and paid subscriptions.",
+            "free": "No",
+            "img": "https://i.ibb.co/rML0pxS/Amper-Music-similar-service.png"
+        }
+    ]
+}
